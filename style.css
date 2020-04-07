@@ -1,0 +1,52 @@
+body {
+  text-align: center;
+  background-image: url(./image/plane.png);
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.title {
+  font-size: 60px;
+  margin: 40px 0px 20px;
+  letter-spacing: 1px;
+  line-height: 41px;
+  font-family: 'Dancing Script', serif;
+  font-weight: 700;
+  color: rgb(255, 167, 153);
+}
+
+.time {
+  font-family: 'Dancing Script', serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 60px;
+}
+
+.numbers {
+  padding: 25px;
+  border-radius: 15px;
+  background: rgba(153, 153, 255, 0.35);
+  display: inline-block;
+}
+
+.meaning {
+  padding: 35px;
+  border-radius: 15px;
+  background: rgba(255, 167, 153, 0.65);
+  display: inline-block;
+}
+
+.text {
+  font-size: 30px;
+  display: block;
+  padding-top: 5px;
+}
