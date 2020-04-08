@@ -20,7 +20,7 @@ class CountdownTimer {
       const currentDate = new Date();
       const time = this.targetDate - currentDate;
       const days = String(Math.floor(time / (1000 * 60 * 60 * 24))).padStart(
-        3,
+        2,
         '0',
       );
       const hours = pad(
