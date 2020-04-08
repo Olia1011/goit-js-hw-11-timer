@@ -1,16 +1,18 @@
 body {
   text-align: center;
-  background-image: url(./image/plane.png);
+  background-image: url(./image/Слой\ 1.png);
   background-size: 100%;
   background-repeat: no-repeat;
   font-family: sans-serif;
   font-weight: 100;
+  height: 100vh;
+  background-position: top;
 }
 
 img {
   display: block;
   max-width: 100%;
-  height: 100%;
+  /* height: 100 vh; */
 }
 
 .title {
